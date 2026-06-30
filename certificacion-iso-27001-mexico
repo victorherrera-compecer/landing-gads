@@ -1,0 +1,2128 @@
+<meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="theme-color" content="#1E2889">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Certificación ISO 27001 para Empresas | Seguridad y Cumplimiento</title>
+    <meta name="description" content="Obtén tu certificación ISO 27001 con expertos. Protege la información y cumple requisitos. Solicita diagnóstico.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&amp;family=DM+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="https://compecer.com/wp-content/uploads/2026/05/cabecera-scaled.png" fetchpriority="high" imagesrcset="" imagesizes="100vw">
+    
+
+    <style>
+        :root {
+            --navy: #1E2889;
+            --navy-mid: #112347;
+            --navy-light: #1A3260;
+            --gold: #00C853;
+            --gold-dark: #D4891A;
+            --gold-light: #FFD580;
+            --white: #FFFFFF;
+            --off-white: #F7F9FC;
+            --gray-light: #E8EDF5;
+            --gray-mid: #8A9BBD;
+            --text-dark: #0B1D3A;
+            --text-body: #2E3F5C;
+            --radius: 12px;
+            --shadow: 0 8px 32px rgba(11, 29, 58, 0.13);
+            --shadow-gold: 0 4px 24px rgba(245, 166, 35, 0.25);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+            overflow-x: hidden;
+            overscroll-behavior: none;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: var(--text-dark);
+            background: var(--white);
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Sora', sans-serif;
+        }
+
+        img,
+        video,
+        svg,
+        iframe {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        button,
+        a,
+        input,
+        select,
+        .btn-primary {
+            touch-action: manipulation;
+        }
+
+        /* Top Bar con logos y teléfonos */
+        #top-bar {
+            background: #FFFF;
+            border-bottom: 2px solid var(--gold);
+            padding: 12px 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+           max-width: 1800px; 
+    margin: 0 auto; 
+    width: 100%;
+        }
+
+        .top-logos {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.top-logos img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+
+.top-phones {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.phone-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--navy);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s;
+    white-space: nowrap;
+}
+
+.phone-item:hover {
+    color: var(--gold);
+}
+
+.phone-item svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--gold);
+}
+        #main-header {
+            position: relative;
+            width: 100%;
+            background: var(--navy);
+            display: none; /* Ocultamos el header antiguo */
+        }
+
+        .sticky-hero-cta {
+            position: fixed;
+            top: 16px;
+            left: 50%;
+            -webkit-transform: translate(-50%, -150px);
+            transform: translate(-50%, -150px);
+            z-index: 999;
+            opacity: 0;
+            pointer-events: none;
+            transition: -webkit-transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+            transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            will-change: transform, opacity;
+        }
+
+        .sticky-hero-cta.visible {
+            -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .sticky-hero-cta .btn-primary {
+            padding: 12px 28px;
+            font-size: 0.9rem;
+            border-radius: 50px;
+            box-shadow: 0 8px 32px rgba(245, 166, 35, 0.45);
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        #hero {
+            min-height: 100vh;
+            min-height: -webkit-fill-available;
+            background: var(--navy);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            padding: 60px 3% 80px;
+            width: 100%;
+            gap: 60px;
+        }
+
+        #hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 60% 60% at 80% 20%, rgba(245, 166, 35, 0.12) 0%, transparent 70%), radial-gradient(ellipse 50% 50% at 10% 80%, rgba(26, 50, 96, 0.8) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-grid-lines {
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(rgba(245, 166, 35, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(245, 166, 35, 0.04) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            text-align: left;
+            flex: 1.2;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0, 200, 83, 0.15);
+            border: 1px solid rgba(0, 200, 83, 0.4);
+            color: var(--gold);
+            font-family: 'Sora', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            padding: 6px 16px;
+            border-radius: 100px;
+            margin-bottom: 28px;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .hero-badge::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 75%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 100%);
+            -webkit-transform: skewX(-25deg);
+            transform: skewX(-25deg);
+            -webkit-animation: shine 10s infinite;
+            animation: shine 10s infinite;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            pointer-events: none;
+        }
+
+        @-webkit-keyframes shine {
+            0% { left: -100%; }
+            70% { left: 150%; }
+            100% { left: 150%; }
+        }
+
+        @keyframes shine {
+            0% { left: -100%; }
+            70% { left: 150%; }
+            100% { left: 150%; }
+        }
+
+        .hero-content h1 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            color: var(--white);
+            line-height: 1.2;
+            letter-spacing: -0.03em;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+
+        .hero-title-main {
+            display: block;
+            line-height: 1.15;
+        }
+
+        .hero-title-main em {
+            font-style: normal;
+            color: var(--gold);
+        }
+
+        .hero-title-sub {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.9);
+            margin-top: 12px;
+        }
+
+        .hero-title-sub::before {
+            content: '';
+            display: block;
+            width: 4px;
+            height: 1.2em;
+            background: var(--gold);
+            border-radius: 2px;
+        }
+
+        .hero-content p {
+            font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.65;
+            margin: 0 0 28px;
+            text-align: left;
+        }
+
+        .hero-bullets {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 32px;
+            justify-content: flex-start;
+        }
+
+        .hero-bullet {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: rgba(255, 255, 255, 0.88);
+            font-size: 0.88rem;
+            padding: 10px 16px;
+            border-radius: 8px;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .hero-bullet span {
+            color: var(--gold);
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: var(--gold);
+            color: var(--navy);
+            font-family: 'Sora', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 16px 32px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+            box-shadow: var(--shadow-gold);
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            will-change: transform;
+        }
+
+        .btn-primary:hover {
+            background: var(--gold-dark);
+            -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(245, 166, 35, 0.4);
+        }
+
+        .hero-microcopy {
+            margin-top: 14px;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 0.03em;
+            text-align: left;
+        }
+
+        /* Formulario en el hero */
+        .hero-form-wrapper {
+            position: relative;
+            z-index: 2;
+            flex-shrink: 0;
+            width: 100%;
+            max-width: 520px;
+        }
+
+        .hero-form {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 36px 32px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            border-top: 4px solid var(--gold);
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            position: relative;
+        }
+
+        .form-group.full {
+            grid-column: 1 / -1;
+        }
+
+        .form-group label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--navy);
+            letter-spacing: 0.02em;
+        }
+
+        .form-group label span {
+            color: var(--gold-dark);
+        }
+
+        .form-group input,
+        .form-group select {
+            border: 1.5px solid var(--gray-light);
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 15px;
+            color: var(--text-dark);
+            background: var(--white);
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            min-height: 44px;
+            width: 100%;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: var(--gold);
+            box-shadow: 0 0 0 3px rgba(0, 200, 83, 0.12);
+        }
+
+        .form-group select {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238A9BBD' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 14px center;
+            padding-right: 36px;
+            cursor: pointer;
+        }
+
+        .recaptcha-wrapper {
+            margin: 16px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .form-submit {
+            margin-top: 20px;
+        }
+
+        .btn-submit {
+            width: 100%;
+            background: var(--gold);
+            color: var(--navy);
+            font-family: 'Sora', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 14px 32px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: var(--shadow-gold);
+        }
+
+        .btn-submit:hover:not(:disabled) {
+            background: var(--gold-dark);
+            -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(245, 166, 35, 0.4);
+        }
+
+        .btn-submit:disabled {
+            background: var(--gray-mid);
+            color: var(--white);
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+            opacity: 0.6;
+        }
+
+        .form-microcopy {
+            margin-top: 12px;
+            font-size: 0.75rem;
+            color: var(--gray-mid);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .form-error {
+            font-size: 0.75rem;
+            color: #dc2626;
+            margin-top: 4px;
+            display: none;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        .form-group.has-error .form-error {
+            display: block;
+        }
+
+        .form-group.has-error input,
+        .form-group.has-error select {
+            border-color: #dc2626;
+            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+        }
+
+        section {
+            padding: 80px 5%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .section-label {
+            font-family: 'Sora', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--gold-dark);
+            margin-bottom: 12px;
+            display: block;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: clamp(1.5rem, 4vw, 2.4rem);
+            font-weight: 800;
+            color: var(--navy);
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            word-wrap: break-word;
+            text-align: center;
+        }
+
+        #pain {
+            background: var(--off-white);
+        }
+
+        .pain-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 48px;
+        }
+
+        .pain-card {
+            background: var(--white);
+            border: 1px solid var(--gray-light);
+            border-left: 4px solid var(--gold);
+            border-radius: var(--radius);
+            padding: 28px 24px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            transition: box-shadow 0.2s, transform 0.2s;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .pain-card:hover {
+            box-shadow: var(--shadow);
+            -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+        }
+
+        .pain-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .pain-card p {
+            font-size: 0.95rem;
+            line-height: 1.55;
+            color: var(--text-body);
+        }
+
+        .pain-close {
+            margin-top: 40px;
+            background: var(--navy);
+            color: var(--white);
+            border-radius: var(--radius);
+            padding: 28px 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .pain-close p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .pain-close p strong {
+            color: var(--gold);
+        }
+
+        #why {
+            background: var(--white);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .why-card {
+            border: 1px solid var(--gray-light);
+            border-radius: var(--radius);
+            padding: 32px 28px;
+            position: relative;
+            overflow: hidden;
+            transition: box-shadow 0.2s;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .why-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--gold), var(--gold-light));
+        }
+
+        .why-card:hover {
+            box-shadow: var(--shadow);
+        }
+
+        .why-num {
+            font-family: 'Sora', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--gray-light);
+            position: absolute;
+            top: 20px;
+            right: 24px;
+            line-height: 1;
+        }
+
+        .why-icon {
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+        }
+
+        .why-card h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 10px;
+        }
+
+        .why-card p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--text-body);
+        }
+
+        .carousel-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--radius);
+            margin-top: 48px;
+            background: var(--off-white);
+            padding: 16px 0;
+            max-width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #video-carousel {
+            max-width: 80%;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            will-change: transform;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            padding: 0 12px;
+            box-sizing: border-box;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            border-radius: var(--radius);
+            object-fit: contain;
+            aspect-ratio: 1/1;
+            background: var(--gray-light);
+        }
+
+        .carousel-slide video {
+            width: 100%;
+            border-radius: var(--radius);
+            object-fit: cover;
+            aspect-ratio: 16/9;
+            background: var(--gray-light);
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid var(--gray-light);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            z-index: 2;
+            box-shadow: var(--shadow);
+            transition: all 0.2s;
+            color: var(--navy);
+        }
+
+        .carousel-btn:hover {
+            background: var(--gold);
+            color: var(--navy);
+            border-color: var(--gold);
+        }
+
+        .carousel-btn.prev {
+            left: 12px;
+        }
+
+        .carousel-btn.next {
+            right: 12px;
+        }
+
+        .carousel-dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        .carousel-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--gray-light);
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+            padding: 0;
+        }
+
+        .carousel-dot.active {
+            background: var(--gold);
+            transform: scale(1.2);
+        }
+
+        .carousel-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--navy);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* ─── NUEVO: YouTube Lazy Thumbnail ─── */
+        .yt-thumbnail-wrap {
+            position: relative;
+            aspect-ratio: 16/9;
+            width: 100%;
+            border-radius: var(--radius);
+            overflow: hidden;
+            cursor: pointer;
+            background: #000;
+        }
+
+        .yt-thumbnail-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.85;
+            transition: opacity 0.3s, transform 0.3s;
+            aspect-ratio: auto; /* override global */
+        }
+
+        .yt-thumbnail-wrap:hover img {
+            opacity: 1;
+            transform: scale(1.04);
+        }
+
+        .yt-play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 68px;
+            height: 48px;
+            background: rgba(245, 166, 35, 0.95);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.25s, transform 0.25s;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            pointer-events: none;
+        }
+
+        .yt-play-btn::before {
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 18px solid #fff;
+            border-top: 11px solid transparent;
+            border-bottom: 11px solid transparent;
+            margin-left: 5px;
+        }
+
+        .yt-thumbnail-wrap:hover .yt-play-btn {
+            background: var(--gold-dark);
+            transform: translate(-50%, -50%) scale(1.12);
+        }
+
+        .yt-thumbnail-wrap iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: var(--radius);
+        }
+        /* ─── FIN YouTube Lazy Thumbnail ─── */
+
+        #process {
+            background: var(--navy);
+        }
+
+        #process .section-title {
+            color: var(--white);
+        }
+
+        #process .section-label {
+            color: var(--gold);
+        }
+
+        .steps {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin-top: 48px;
+            position: relative;
+        }
+
+        .steps::before {
+            content: '';
+            position: absolute;
+            left: 32px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--gold), rgba(245, 166, 35, 0.1));
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 28px;
+            padding: 24px 0;
+            position: relative;
+        }
+
+        .step-num {
+            flex-shrink: 0;
+            width: 64px;
+            height: 64px;
+            background: var(--gold);
+            color: var(--navy);
+            font-family: 'Sora', sans-serif;
+            font-weight: 800;
+            font-size: 1.3rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-gold);
+            position: relative;
+            z-index: 1;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .step-content h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 6px;
+        }
+
+        .step-content p {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 1.55;
+        }
+
+        .process-cta {
+            margin-top: 48px;
+            text-align: center;
+        }
+
+        #benefits {
+            background: var(--off-white);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .benefit-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 36px 28px;
+            text-align: center;
+            border: 1px solid var(--gray-light);
+            transition: all 0.25s;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .benefit-card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 8px 32px rgba(245, 166, 35, 0.12);
+            -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+        }
+
+        .benefit-emoji {
+            font-size: 2.2rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .benefit-card h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 8px;
+        }
+
+        .benefit-card p {
+            font-size: 0.85rem;
+            color: var(--text-body);
+            line-height: 1.55;
+        }
+
+        #testimonials {
+            background: var(--white);
+        }
+
+        .testi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .testi-card {
+            background: var(--off-white);
+            border: 1px solid var(--gray-light);
+            border-radius: var(--radius);
+            padding: 32px 28px;
+            position: relative;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .testi-card::before {
+            content: '"';
+            position: absolute;
+            top: -8px;
+            left: 24px;
+            font-family: 'Sora', sans-serif;
+            font-size: 5rem;
+            font-weight: 800;
+            color: var(--gold);
+            line-height: 1;
+            opacity: 0.6;
+        }
+
+        .testi-stars {
+            color: var(--gold);
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        .testi-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-body);
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .testi-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .testi-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--navy);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            font-family: 'Sora', sans-serif;
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+        }
+
+        .testi-author-info strong {
+            display: block;
+            font-size: 0.88rem;
+            color: var(--navy);
+        }
+
+        .testi-author-info span {
+            font-size: 0.78rem;
+            color: var(--gray-mid);
+        }
+
+        #cta-final {
+            background: var(--navy);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #cta-final::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(245, 166, 35, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        #cta-final h2 {
+            font-size: clamp(1.6rem, 4vw, 2.8rem);
+            font-weight: 800;
+            color: var(--white);
+            letter-spacing: -0.03em;
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        #cta-final h2 em {
+            font-style: normal;
+            color: var(--gold);
+        }
+
+        #cta-final p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.05rem;
+            max-width: 560px;
+            margin: 0 auto 40px;
+            line-height: 1.65;
+            position: relative;
+        }
+
+        #contacto {
+            background: var(--off-white);
+            display: none; /* Ocultamos la sección de contacto antigua ya que el formulario está en el hero */
+        }
+
+        footer {
+            background: var(--navy);
+            padding: 48px 5%;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+        }
+
+        .footer-grid {
+            display: grid;
+            gap: 48px;
+            max-width: 1100px;
+            margin: 0 auto;
+            align-items: start;
+            justify-content: center;
+        }
+
+        .footer-countries h3,
+        .footer-contact h3 {
+            font-family: 'Sora', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--gold);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
+
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        .country-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .country-flag {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .country-name {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.6);
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .footer-content {
+            text-align: left;
+        }
+
+        .office {
+            font-size: 0.82rem;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .office strong {
+            color: var(--white);
+        }
+
+        .office a {
+            color: var(--gold);
+            text-decoration: none;
+        }
+
+        .email {
+            font-size: 0.82rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 12px;
+        }
+
+        .email a {
+            color: var(--gold);
+            text-decoration: none;
+        }
+
+        .copyright {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+            font-size: 0.82rem;
+            color: rgba(255, 255, 255, 0.4);
+            text-align: center;
+            grid-column: 1 / -1;
+        }
+
+        .copyright a {
+            color: var(--gold);
+            text-decoration: none;
+        }
+
+        .floating-cta {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 12px;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            pointer-events: none;
+        }
+
+        .floating-cta>* {
+            pointer-events: auto;
+        }
+
+        .float-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 20px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Sora', sans-serif;
+            font-weight: 700;
+            font-size: 0.88rem;
+            text-decoration: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            transition: transform 0.2s, box-shadow 0.2s;
+            white-space: nowrap;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            will-change: transform;
+        }
+
+        .float-btn:hover {
+            -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+        }
+
+        .float-wa {
+            background: #25D366;
+            color: #fff;
+        }
+
+        .float-call {
+            display: none; /* Eliminamos el botón de llamar */
+        }
+
+        .float-icon {
+            font-size: 1.1rem;
+        }
+
+        @-webkit-keyframes fadeUp {
+            from { opacity: 0; -webkit-transform: translateY(24px); transform: translateY(24px); }
+            to   { opacity: 1; -webkit-transform: translateY(0);    transform: translateY(0); }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-content>* {
+            -webkit-animation: fadeUp 0.6s ease both;
+            animation: fadeUp 0.6s ease both;
+        }
+
+        .hero-content>*:nth-child(1) { -webkit-animation-delay: 0.1s; animation-delay: 0.1s; }
+        .hero-content>*:nth-child(2) { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; }
+        .hero-content>*:nth-child(3) { -webkit-animation-delay: 0.3s; animation-delay: 0.3s; }
+        .hero-content>*:nth-child(4) { -webkit-animation-delay: 0.4s; animation-delay: 0.4s; }
+        .hero-content>*:nth-child(5) { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
+        .hero-content>*:nth-child(6) { -webkit-animation-delay: 0.6s; animation-delay: 0.6s; }
+
+@media(min-width: 1400px) {
+    #hero {
+        gap: 80px;
+        padding: 60px 5% 60px;
+    }
+    .hero-content {
+        max-width: 700px;
+    }
+    .hero-form-wrapper {
+        max-width: 540px;
+    }
+}
+
+/* 6. Para pantallas medianas (1024px a 1399px) */
+@media(min-width: 1024px) and (max-width: 1399px) {
+    #hero {
+        gap: 40px;
+        padding: 60px 3% 60px;
+    }
+    .hero-content {
+        max-width: 550px;
+    }
+    .hero-form-wrapper {
+        max-width: 480px;
+    }
+}
+
+        @media(max-width: 1024px) {
+            .pain-grid { grid-template-columns: repeat(2, 1fr); }
+            .why-grid  { grid-template-columns: 1fr; }
+            #hero { flex-direction: column; text-align: center; }
+            .hero-content { text-align: center; max-width: 100%; }
+            .hero-content p, .hero-microcopy { text-align: center; }
+            .hero-bullets { justify-content: center; }
+            .hero-title-sub { justify-content: center; }
+            .hero-form-wrapper { max-width: 100%; margin-top: 40px; }
+        }
+
+        @media(max-width: 900px) {
+            .pain-grid { grid-template-columns: repeat(2, 1fr); }
+            #top-bar { flex-direction: column; text-align: center; }
+            .top-logos { justify-content: center; }
+        }
+
+        @media(max-width: 768px) {
+            .carousel-container { max-width: 100%; }
+            #main-header { padding: 0 4%; height: 60px; }
+            #main-header .cta-header { padding: 6px 12px; font-size: 0.7rem; }
+            .steps::before { left: 28px; }
+            .step-num { width: 56px; height: 56px; font-size: 1.1rem; }
+            .floating-cta { bottom: 16px; right: 16px; gap: 8px; }
+            .float-btn { padding: 12px 16px; font-size: 0.82rem; }
+            .pain-grid { grid-template-columns: 1fr; }
+            .why-grid  { grid-template-columns: 1fr; }
+            .form-grid { grid-template-columns: 1fr; gap: 16px; }
+            .form-group input, .form-group select { font-size: 16px; padding: 14px 16px; }
+            .form-group select { background-image: none; padding-right: 16px; -webkit-appearance: none; appearance: none; }
+            .btn-submit { padding: 18px 24px; font-size: 1.1rem; }
+            .country-flag { width: 40px; height: 40px; }
+            .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+            .carousel-btn { width: 36px; height: 36px; font-size: 1rem; }
+            .carousel-btn.prev { left: 8px; }
+            .carousel-btn.next { right: 8px; }
+            .top-phones { display:none }
+#top-bar {
+        justify-content: center; /* Centrar logos en móvil */
+        padding: 14px 3%;
+    }
+    
+    .top-logos {
+        gap: 16px;
+    }
+    
+    .top-logos img {
+        height: 40px; /* Un poco más pequeños en móvil */
+    }
+        }
+
+        @media(max-width: 600px) {
+            .hero-bullets { flex-direction: column; align-items: center; }
+            .hero-title-sub { gap: 8px; font-size: 1rem; }
+            .hero-title-sub::before { width: 3px; height: 1em; }
+            .countries-grid { grid-template-columns: repeat(4, 1fr); gap: 12px; }
+            .section-title { font-size: clamp(1.4rem, 5vw, 1.8rem); }
+            #main-header .cta-header { padding: 5px 10px; font-size: 0.65rem; }
+            .hero-form { padding: 24px 20px; }
+        }
+
+        @media(max-width: 480px) {
+            #hero { padding: 40px 4% 60px; }
+            .hero-form { padding: 24px 16px; }
+            .section-title { font-size: clamp(1.3rem, 5vw, 1.7rem); }
+            .form-group label { font-size: 0.95rem; }
+            .form-error { font-size: 0.8rem; }
+            .countries-grid { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+            .country-flag { width: 36px; height: 36px; }
+            .country-name { font-size: 0.6rem; }
+            .btn-primary { padding: 14px 28px; font-size: 0.95rem; width: 100%; max-width: 320px; }
+            .hero-content h1 { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+            .hero-content p { font-size: 0.95rem; }
+            section { padding: 60px 4%; }
+            .pain-card { padding: 24px 20px; }
+            .why-card { padding: 28px 24px; }
+            .benefit-card { padding: 32px 24px; }
+            .testi-card { padding: 28px 24px; }
+            .step { padding: 20px 0; }
+            .sticky-hero-cta .btn-primary { font-size: 0.7rem !important; padding: 8px 16px !important; white-space: nowrap !important; max-width: 90vw; }
+            .top-logos img { height: 35px; }
+        }
+
+        @media(max-width: 360px) {
+            .hero-content h1 { font-size: 1.5rem; }
+            .section-title { font-size: 1.3rem; }
+            .form-group input, .form-group select { padding: 12px 14px; font-size: 16px; }
+            .btn-submit { padding: 16px 20px; font-size: 1rem; }
+            .countries-grid { grid-template-columns: repeat(4, 1fr); gap: 6px; }
+            .country-flag { width: 32px; height: 32px; font-size: 1.2rem; }
+            .country-name { font-size: 0.55rem; }
+        }
+
+        @media(max-height: 500px) and (orientation: landscape) {
+            #hero { min-height: auto; padding: 60px 5% 40px; }
+            .hero-content h1 { font-size: 1.6rem; margin-bottom: 12px; }
+            .hero-content p { font-size: 0.9rem; margin-bottom: 20px; }
+            .hero-bullets { margin-bottom: 20px; }
+            .floating-cta { bottom: 12px; right: 12px; }
+        }
+
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .country-flag { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                -webkit-animation-duration: 0.01ms !important;
+                animation-duration: 0.01ms !important;
+                -webkit-animation-iteration-count: 1 !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+
+
+
+
+    <!-- Top Bar con logos y teléfonos -->
+    <div id="top-bar">
+        <div class="top-logos">
+            <img src="https://compecer.com/wp-content/uploads/2026/06/acreditacion-sgsi.webp" alt="COMPECER" fetchpriority="high">
+        </div>
+        
+        <div class="top-phones">
+            <!--
+            <a href="tel:5516754845" class="phone-item">
+                <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"></path></svg>
+                55 1675 4845
+                
+            </a>
+            
+            <a id="btn-wa-iso-27001-mx" href="https://wa.me/525510738964?text=Hola%2C%20vi%20tu%20anuncio%20en%20google.%20Me%20interesa%20informacion%20sobre%20certificacion%20ISO%2027001%20para%20mi%20empresa." class="phone-item">
+                <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+                +52 55 1073 8964
+            </a>
+            -->
+        </div>
+        
+    </div>
+
+    <div class="sticky-hero-cta" id="sticky-hero-cta">
+        <a href="#hero-form" class="btn-primary">👉 Solicitar Diagnóstico</a>
+    </div>
+
+    <section id="hero">
+        <div class="hero-grid-lines"></div>
+        <div class="hero-content">
+            <div class="hero-badge">ISO 27001 · Seguridad de la Información</div>
+            <h1>
+                <span class="hero-title-main">Certificación <em>ISO 27001</em> para Medianas y Grandes Empresas</span>
+                <span class="hero-title-sub">Protege tu Información</span>
+            </h1>
+            <p>Implementa un sistema de seguridad de la información sólido y obtén tu certificación con acompañamiento experto.</p>
+            <div class="hero-bullets">
+                <div class="hero-bullet"><span>✔</span> Protege la información de tu empresa y clientes</div>
+                <div class="hero-bullet"><span>✔</span> Cumple requisitos de seguridad y normativas</div>
+                <div class="hero-bullet"><span>✔</span> Aumenta la confianza de clientes y aliados</div>
+            </div>
+            <a href="#hero-form" class="btn-primary" id="hero-cta-btn">👉 Solicitar Diagnóstico Ahora</a>
+            <p class="hero-microcopy">Sin compromiso • Respuesta en menos de 24h</p>
+        </div>
+        
+        <!-- Formulario en el lado derecho -->
+        <div class="hero-form-wrapper" id="hero-form">
+            <form class="hero-form" id="iso-form-27001" onsubmit="handleSubmit(event)" novalidate="">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Nombre Completo <span>*</span></label>
+                        <input type="text" name="nombre" placeholder="Tu nombre completo" required="" inputmode="text" autocomplete="name" pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{3,50}$">
+                        <small class="form-error">Ingresa tu nombre completo válido</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Empresa <span>*</span></label>
+                        <input type="text" name="empresa" placeholder="Nombre de tu empresa" required="" inputmode="text" autocomplete="organization" pattern="^[A-Za-z0-9\s\.\,\-\&amp;]{2,100}$">
+                        <small class="form-error">Ingresa el nombre de tu empresa</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Correo Electrónico Corporativo <span>*</span></label>
+                        <input type="email" name="email" id="email-corporativo" placeholder="tu@empresa.com" required="" inputmode="email" autocomplete="email">
+                        <small class="form-error">Usa un correo corporativo (evita gmail, yahoo, hotmail, etc.)</small>
+                    </div>
+                    <div class="form-group">
+                        <label>WhatsApp/Celular de Contacto <span>*</span></label>
+                        <input type="tel" name="whatsapp" id="whatsapp-input" placeholder="+52 1 55 1234 5678" required="" inputmode="tel" autocomplete="tel" pattern="^[\+]?[0-9\s\-\(\)]{7,20}$">
+                        <small class="form-error">Ingresa un número válido con código de país</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Página Web <span>*</span></label>
+                        <input type="url" name="web" placeholder="https://tuempresa.com" required="" inputmode="url" autocomplete="url">
+                        <small class="form-error">Ingresa la URL de tu página web</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Cargo/Función <span>*</span></label>
+                        <select name="cargo" required="">
+                            <option value="" disabled="" selected="">Seleccionar</option>
+                            <option value="director_general">Dueño / Director General (CEO)</option>
+                            <option value="operaciones_logistica">Director de Operaciones / Planta (COO)</option>
+                            <option value="calidad_sistemas">Gerente de Calidad / Sistemas de Gestión</option>
+                            <option value="responsable_ciso">Responsable de TI/CISO (Para ISO 27001)</option>
+                            <option value="comercial">Director Comercial (Licitaciones)</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                        <small class="form-error">Selecciona el cargo del decisor</small>
+                    </div>
+                    <div class="form-group full">
+                        <label>¿Cuál es el factor que impulsa la certificación ISO 9001 en su organización hoy? <span>*</span></label>
+                        <select name="factor" required="">
+                            <option value="" disabled="" selected="">Seleccionar</option>
+                            <option value="licitacion_contrato">Requisito obligatorio para licitación o contrato.</option>
+                            <option value="exigencia_cliente">Exigencia de un cliente clave o socio comercial.</option>
+                            <option value="roi">Mejora de rentabilidad y reducción de costos (ROI).</option>
+                            <option value="expansion">Estandarización por crecimiento o expansión.</option>
+                            <option value="mandato_consejo">Mandato estratégico del Consejo o Dirección.</option>
+                        </select>
+                        <small class="form-error">Selecciona el factor principal</small>
+                    </div>
+                </div>
+
+                <div class="recaptcha-wrapper">
+                    <div class="g-recaptcha" data-sitekey="6LeZLMIsAAAAAHocWIfdVprtnfO43K6wASsbog0r" data-theme="light" data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaExpired"></div>
+                </div>
+                <small class="form-error" id="recaptcha-error" style="text-align:center; display:none;">Completa el captcha para continuar</small>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn-submit" id="btn-submit" disabled="">👉 Enviar y recibir diagnóstico</button>
+                    <p class="form-microcopy">🔒 Un asesor te contactará para evaluar tu caso</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="pain">
+        <div class="container">
+            <span class="section-label">¿Por qué certificarse?</span>
+            <h2 class="section-title">¿Necesitas la Certificación ISO 27001<br>para resolver estos riesgos?</h2>
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <div class="pain-icon">🔓</div>
+                    <p>Riesgo de <strong>pérdida o filtración de información</strong></p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">🛡️</div>
+                    <p><strong>Falta de controles de seguridad</strong> en la empresa</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">📋</div>
+                    <p><strong>Exigencias de clientes o contratos</strong> en ciberseguridad</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">⚖️</div>
+                    <p><strong>Dificultad para cumplir</strong> normativas</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">📉</div>
+                    <p><strong>Falta de confianza</strong> en el manejo de datos</p>
+                </div>
+            </div>
+            <div class="pain-close">
+                <p>La certificación ISO 27001 permite <strong>gestionar y proteger la información crítica de tu empresa</strong> de forma estructurada.</p>
+                <a href="#hero-form" class="btn-primary">👉 Quiero obtener la Certificación ISO 27001</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="why">
+        <div class="container">
+            <span class="section-label">Por qué elegirnos</span>
+            <h2 class="section-title">Certificación ISO 27001<br>sin complicaciones para tu empresa</h2>
+            <p>Te acompañamos en la implementación del sistema de gestión de seguridad de la información, asegurando que tu empresa cumpla con los requisitos de la norma ISO 27001 de forma efectiva y adaptada a su operación.</p>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-num">01</div>
+                    <div class="why-icon">🧭</div>
+                    <h3>Acompañamiento experto en seguridad de la información</h3>
+                    <p>Consultores especializados en sistemas de gestión de seguridad con experiencia real.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-num">02</div>
+                    <div class="why-icon">📐</div>
+                    <h3>Implementación clara y estructurada</h3>
+                    <p>Metodología "Audit-Ready" que reduce tiempos y elimina la incertidumbre del camino.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-num">03</div>
+                    <div class="why-icon">🎯</div>
+                    <h3>Adaptado a los riesgos de tu empresa</h3>
+                    <p>Diseñamos el sistema según tus activos de información, sector y nivel de exposición.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-num">04</div>
+                    <div class="why-icon">🔐</div>
+                    <h3>Enfoque en cumplimiento y protección real</h3>
+                    <p>Implementamos controles útiles que protegen tu información y facilitan la auditoría.</p>
+                </div>
+            </div>
+            <div class="carousel-container" id="img-carousel">
+                <p class="carousel-title">Proyectos y capacitaciones recientes</p>
+                <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                <button class="carousel-btn next" aria-label="Siguiente">❯</button>
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="https://compecer.com/wp-content/uploads/2025/07/A.jpg" alt="Capacitación ISO 27001" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="https://compecer.com/wp-content/uploads/2025/07/K.jpg" alt="Implementación de controles de seguridad" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="https://compecer.com/wp-content/uploads/2025/07/J.jpg" alt="Auditoría de seguridad" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="https://compecer.com/wp-content/uploads/2025/07/356803844_685765210232137_1950578904565686085_n-1.jpg" alt="Equipo de consultores" loading="lazy"></div>
+                </div>
+                <div class="carousel-dots"></div>
+            </div>
+            <div style="text-align:center;margin-top:40px;"><a href="#hero-form" class="btn-primary">👉 Solicitar Diagnóstico para Certificación ISO 27001</a></div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="container">
+            <span class="section-label">Cómo funciona</span>
+            <h2 class="section-title">Proceso de Certificación ISO 27001<br>paso a paso</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <div class="step-content">
+                        <h3>Diagnóstico de seguridad de la información</h3>
+                        <p>Evaluación inicial del estado actual de la seguridad, identificando brechas frente a la norma ISO 27001.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <div class="step-content">
+                        <h3>Identificación de riesgos</h3>
+                        <p>Análisis y valoración de los riesgos sobre los activos de información críticos de la organización.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <div class="step-content">
+                        <h3>Implementación de controles de seguridad</h3>
+                        <p>Documentación, capacitación y puesta en marcha de los controles del Anexo A alineados a ISO 27001.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-num">4</div>
+                    <div class="step-content">
+                        <h3>Auditoría</h3>
+                        <p>Ejecución de auditoría interna y acompañamiento durante la auditoría de certificación externa.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-num">5</div>
+                    <div class="step-content">
+                        <h3>Certificación</h3>
+                        <p>Emisión del certificado ISO 27001 y acompañamiento continuo para mantenerlo vigente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="process-cta"><a href="#hero-form" class="btn-primary">👉 Iniciar Proceso de Certificación ISO 27001</a></div>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="container">
+            <span class="section-label">Resultados concretos</span>
+            <h2 class="section-title">Beneficios de la Certificación ISO 27001<br>para tu empresa</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card"><span class="benefit-emoji">🔐</span>
+                    <h3>Protección de datos sensibles</h3>
+                    <p>Resguarda la información crítica de tu empresa, clientes y socios comerciales.</p>
+                </div>
+                <div class="benefit-card"><span class="benefit-emoji">📊</span>
+                    <h3>Reducción de riesgos de seguridad</h3>
+                    <p>Identifica y mitiga vulnerabilidades antes de que se conviertan en incidentes costosos.</p>
+                </div>
+                <div class="benefit-card"><span class="benefit-emoji">🤝</span>
+                    <h3>Mayor confianza de clientes y aliados</h3>
+                    <p>Demuestra compromiso con la seguridad y gana contratos que lo exigen como requisito.</p>
+                </div>
+                <div class="benefit-card"><span class="benefit-emoji">🏆</span>
+                    <h3>Cumplimiento de estándares internacionales</h3>
+                    <p>Alinea tu empresa con la norma de seguridad de la información más reconocida del mundo.</p>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:48px;"><a href="#hero-form" class="btn-primary">👉 Obtener Certificación ISO 27001 Ahora</a></div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <span class="section-label">Casos de éxito</span>
+            <h2 class="section-title">Empresas que lograron<br>su Certificación ISO 27001</h2>
+
+            <!-- ─── CAROUSEL DE VIDEOS CON LAZY LOAD ─── -->
+            <div class="carousel-container" id="video-carousel">
+                <p class="carousel-title">Experiencias reales de nuestros clientes</p>
+                <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+                <button class="carousel-btn next" aria-label="Siguiente">❯</button>
+                <div class="carousel-track">
+                    <!-- Video 1: FCUFcUb9ZEY -->
+                    <div class="carousel-slide">
+                        <div class="yt-thumbnail-wrap" data-videoid="FCUFcUb9ZEY" onclick="loadYTPlayer(this)">
+                            <img src="https://i.ytimg.com/vi/FCUFcUb9ZEY/hqdefault.jpg" alt="Testimonio cliente ISO 27001" loading="lazy">
+                            <div class="yt-play-btn"></div>
+                        </div>
+                    </div>
+                    <!-- Video 2: EsqXVw10aRM -->
+                    <div class="carousel-slide">
+                        <div class="yt-thumbnail-wrap" data-videoid="EsqXVw10aRM" onclick="loadYTPlayer(this)">
+                            <img src="https://i.ytimg.com/vi/EsqXVw10aRM/hqdefault.jpg" alt="Testimonio cliente ISO 27001" loading="lazy">
+                            <div class="yt-play-btn"></div>
+                        </div>
+                    </div>
+                    <!-- Video 3: 7Ce_Y260s5M -->
+                    <div class="carousel-slide">
+                        <div class="yt-thumbnail-wrap" data-videoid="7Ce_Y260s5M" onclick="loadYTPlayer(this)">
+                            <img src="https://i.ytimg.com/vi/7Ce_Y260s5M/hqdefault.jpg" alt="Testimonio cliente ISO 27001" loading="lazy">
+                            <div class="yt-play-btn"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-dots"></div>
+            </div>
+            <!-- ─── FIN CAROUSEL VIDEOS ─── -->
+
+            <div class="testi-grid" style="margin-top: 40px;">
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">"Ahora tenemos control total sobre la seguridad de la información."</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">DIR</div>
+                        <div class="testi-author-info"><strong>Director de Tecnología · Sector Financiero</strong><span>Empresa: Soluciones Digitales SA</span></div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">"Cumplimos con los requisitos que nos exigían nuestros clientes."</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">GER</div>
+                        <div class="testi-author-info"><strong>Gerente General · Servicios TI</strong><span>Empresa: DataTech Colombia</span></div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">"Mejoramos nuestros procesos de seguridad y gestión de riesgos."</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">COO</div>
+                        <div class="testi-author-info"><strong>Director de Operaciones · Logística</strong><span>Empresa: Distribuciones Express</span></div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:48px;"><a href="#hero-form" class="btn-primary">👉 Quiero mi Certificación ISO 27001</a></div>
+        </div>
+    </section>
+
+    <section id="cta-final">
+        <div class="container">
+            <h2>Inicia tu Certificación <em>ISO 27001</em> hoy mismo</h2>
+            <p>Solicita un diagnóstico y conoce qué necesita tu empresa para proteger su información y certificarse de manera efectiva.</p>
+            <a href="#hero-form" class="btn-primary">👉 Solicitar Diagnóstico</a>
+        </div>
+    </section>
+
+    <section id="contacto" style="display: none;">
+        <!-- Sección oculta ya que el formulario está en el hero -->
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-countries">
+                <h3>Países con presencia Compecer</h3>
+                <div class="countries-grid">
+                    <div class="country-item"><img src="https://flagcdn.com/w40/co.png" alt="Colombia" class="country-flag" loading="lazy"><span class="country-name">Colombia</span></div>
+                    <div class="country-item"><img src="https://flagcdn.com/w40/es.png" alt="España" class="country-flag" loading="lazy"><span class="country-name">España</span></div>
+                    <div class="country-item"><img src="https://flagcdn.com/w40/us.png" alt="USA" class="country-flag" loading="lazy"><span class="country-name">USA</span></div>
+                    <div class="country-item"><img src="https://flagcdn.com/w40/it.png" alt="Italia" class="country-flag" loading="lazy"><span class="country-name">Italia</span></div>
+                    <div class="country-item"><img src="https://flagcdn.com/w40/mx.png" alt="México" class="country-flag" loading="lazy"><span class="country-name">México</span></div>
+                    <div class="country-item"><img src="https://flagcdn.com/w40/pe.png" alt="Perú" class="country-flag" loading="lazy"><span class="country-name">Perú</span></div>
+                    <div class="country-item"><img src="https://flagcdn.com/w40/pa.png" alt="Panamá" class="country-flag" loading="lazy"><span class="country-name">Panamá</span></div>
+                    <div class="country-item"><img src="https://flagcdn.com/w40/ec.png" alt="Ecuador" class="country-flag" loading="lazy"><span class="country-name">Ecuador</span></div>
+                </div>
+            </div>
+            <p class="copyright">© 2026 COMPECER · <a href="#">Aviso de Privacidad</a> · Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+    <script>
+        // ─── URL DEL APPS SCRIPT ───
+        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxcKhnS_j_ExxaLqr36HAG0TR2REkTwRGqrrcypgCBntJhj1pAeIgzULFJhtLYU4Q_hvQ/exec';
+
+       
+
+        // ─── 2. FADE UP OBSERVER ───
+        const fadeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(el => { if (el.isIntersecting) { el.target.style.opacity = '1'; el.target.style.transform = 'translateY(0)'; } });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.pain-card, .why-card, .benefit-card, .testi-card, .step').forEach(el => {
+            el.style.opacity = '0'; el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            fadeObserver.observe(el);
+        });
+
+        // ─── 3. CARRUSELES ───
+        function initCarousel(selector) {
+            const containers = document.querySelectorAll(selector);
+            containers.forEach(container => {
+                const track = container.querySelector('.carousel-track');
+                const slides = track.querySelectorAll('.carousel-slide');
+                const prevBtn = container.querySelector('.carousel-prev, .prev');
+                const nextBtn = container.querySelector('.carousel-next, .next');
+                const dotsContainer = container.querySelector('.carousel-dots');
+                let current = 0, autoPlayInterval;
+                dotsContainer.innerHTML = '';
+                slides.forEach((_, i) => {
+                    const dot = document.createElement('button');
+                    dot.classList.add('carousel-dot');
+                    dot.setAttribute('aria-label', `Ir a slide ${i + 1}`);
+                    if (i === 0) dot.classList.add('active');
+                    dot.addEventListener('click', () => goTo(i));
+                    dotsContainer.appendChild(dot);
+                });
+                const dots = dotsContainer.querySelectorAll('.carousel-dot');
+                function goTo(index) {
+                    current = (index + slides.length) % slides.length;
+                    track.style.transform = `translateX(-${current * 100}%)`;
+                    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+                    resetAutoPlay();
+                }
+                function next() { goTo(current + 1); }
+                function prev() { goTo(current - 1); }
+                prevBtn?.addEventListener('click', prev);
+                nextBtn?.addEventListener('click', next);
+                let startX = 0, startY = 0;
+                track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; startY = e.touches[0].clientY; }, { passive: true });
+                track.addEventListener('touchend', e => {
+                    const diffX = startX - e.changedTouches[0].clientX;
+                    const diffY = startY - e.changedTouches[0].clientY;
+                    if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 40) { diffX > 0 ? next() : prev(); }
+                }, { passive: true });
+                function startAutoPlay() {
+                    autoPlayInterval = setInterval(() => {
+                        // Si hay un video reproduciéndose, no avanzar
+                        const activeSlide = slides[current];
+                        if (activeSlide && activeSlide.querySelector('iframe')) return;
+                        next();
+                    }, 6000);
+                }
+                function resetAutoPlay() { clearInterval(autoPlayInterval); startAutoPlay(); }
+                startAutoPlay();
+                container.addEventListener('mouseenter', () => clearInterval(autoPlayInterval));
+                container.addEventListener('mouseleave', startAutoPlay);
+                container.addEventListener('touchstart', () => clearInterval(autoPlayInterval), { passive: true });
+                container.addEventListener('touchend', startAutoPlay, { passive: true });
+            });
+        }
+
+        // ─── 4. YOUTUBE LAZY LOAD (FIX #1) ───
+        // NO se carga la API de YouTube. Solo thumbnails estáticos.
+        // Al hacer clic, se reemplaza el thumbnail por un iframe con autoplay.
+        function loadYTPlayer(wrap) {
+            const videoId = wrap.dataset.videoid;
+            // Reemplazar contenido: eliminar img y botón, insertar iframe
+            wrap.innerHTML = `
+                <iframe
+                    src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    style="position:absolute;inset:0;width:100%;height:100%;border:none;border-radius:var(--radius);"
+                ></iframe>`;
+            // Quitar el cursor pointer ya que el iframe toma el control
+            wrap.style.cursor = 'default';
+        }
+
+        // ─── 5. FORM VALIDATION + ENVÍO ───
+        const form = document.getElementById('iso-form-27001');
+        const emailInput = document.getElementById('email-corporativo');
+        const whatsappInput = document.getElementById('whatsapp-input');
+        const btnSubmit = document.getElementById('btn-submit');
+        const personalDomains = ['gmail.com','yahoo.com','hotmail.com','outlook.com','live.com','icloud.com','protonmail.com','mail.com','aol.com','zoho.com','yandex.com','gmx.com'];
+
+        function showError(input, message) {
+            const group = input.closest('.form-group');
+            group.classList.add('has-error');
+            const error = group.querySelector('.form-error');
+            if (error) error.textContent = message;
+        }
+        function hideError(input) {
+            input.closest('.form-group').classList.remove('has-error');
+        }
+
+        function validateEmail(value) {
+            const domain = value.toLowerCase().split('@')[1];
+            if (!value) return 'Este campo es obligatorio';
+            if (!value.includes('@')) return 'Ingresa un correo válido';
+            if (domain && personalDomains.includes(domain)) return 'Usa un correo corporativo de tu empresa';
+            return null;
+        }
+
+        function validatePhone(value) {
+            const digits = value.replace(/\D/g, '');
+            if (!value) return 'Este campo es obligatorio';
+            if (digits.length < 8) return 'El número debe tener al menos 8 dígitos';
+            return null;
+        }
+
+        function validateRequired(value) {
+            if (!value || value.trim() === '') return 'Este campo es obligatorio';
+            return null;
+        }
+
+        function checkFormValidity() {
+            const fields = form.querySelectorAll('input, select');
+            let allValid = true;
+            fields.forEach(field => {
+                if (field.name === 'email') {
+                    if (validateEmail(field.value)) allValid = false;
+                } else if (field.name === 'whatsapp') {
+                    if (validatePhone(field.value)) allValid = false;
+                } else {
+                    if (validateRequired(field.value)) allValid = false;
+                }
+            });
+            const recaptchaDone = grecaptcha.getResponse().length > 0;
+            btnSubmit.disabled = !(allValid && recaptchaDone);
+        }
+
+        emailInput.addEventListener('input', function() {
+            const error = validateEmail(this.value);
+            if (error) showError(this, error); else hideError(this);
+            checkFormValidity();
+        });
+
+        whatsappInput.addEventListener('input', function() {
+            this.value = this.value.replace(/[^\d\+\s\-]/g, '');
+            const error = validatePhone(this.value);
+            if (error) showError(this, error); else hideError(this);
+            checkFormValidity();
+        });
+
+        form.querySelectorAll('input:not(#email-corporativo):not(#whatsapp-input), select').forEach(field => {
+            field.addEventListener('input', () => {
+                const error = validateRequired(field.value);
+                if (error) showError(field, error); else hideError(field);
+                checkFormValidity();
+            });
+            field.addEventListener('change', () => {
+                const error = validateRequired(field.value);
+                if (error) showError(field, error); else hideError(field);
+                checkFormValidity();
+            });
+        });
+
+        window.onRecaptchaSuccess = function() { checkFormValidity(); };
+        window.onRecaptchaExpired = function() { btnSubmit.disabled = true; };
+
+        window.handleSubmit = async function(e) {
+            e.preventDefault();
+            const recaptchaResponse = grecaptcha.getResponse();
+            const recaptchaError = document.getElementById('recaptcha-error');
+            if (recaptchaResponse.length === 0) { recaptchaError.style.display = 'block'; return; }
+            else { recaptchaError.style.display = 'none'; }
+
+            const btn = document.getElementById('btn-submit');
+            btn.textContent = '⏳ Enviando...';
+            btn.disabled = true;
+
+            const formData = new FormData(form);
+            const payload = {
+                tipo:      '27001',
+                nombre:    formData.get('nombre'),
+                empresa:   formData.get('empresa'),
+                email:     formData.get('email'),
+                whatsapp:  formData.get('whatsapp'),
+                web:       formData.get('web'),
+                cargo:     formData.get('cargo'),
+                factor:    formData.get('factor'),
+                mensaje:   '',
+                recaptcha: recaptchaResponse
+            };
+
+            try {
+                const response = await fetch(APPS_SCRIPT_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'text/plain' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await response.json();
+                if (!result.success) throw new Error(result.message || 'Error desconocido');
+
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({ event: 'form_submit_success', form_tipo: payload.tipo, form_empresa: payload.empresa });
+
+                btn.textContent = '✅ ¡Enviado! Te contactaremos pronto';
+                btn.style.background = '#22c55e';
+                setTimeout(() => {
+                    form.reset();
+                    document.querySelectorAll('.form-group').forEach(g => g.classList.remove('has-error'));
+                    btn.textContent = '👉 Enviar y recibir diagnóstico';
+                    btn.style.background = '';
+                    btn.disabled = true;
+                    grecaptcha.reset();
+                }, 5000);
+
+            } catch (err) {
+                console.error('Error al enviar:', err);
+                btn.textContent = '❌ Error al enviar. Intenta de nuevo';
+                btn.style.background = '#dc2626';
+                setTimeout(() => {
+                    btn.textContent = '👉 Enviar y recibir diagnóstico';
+                    btn.style.background = '';
+                    btn.disabled = false;
+                    grecaptcha.reset();
+                }, 4000);
+            }
+        };
+
+// Observar cuando el formulario entra en pantalla
+// Cargar reCAPTCHA solo cuando el usuario toca el formulario
+const formSection = document.getElementById('hero-form');
+let recaptchaLoaded = false;
+
+function loadRecaptchaOnDemand() {
+    if (!recaptchaLoaded) {
+        const script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js';
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+        recaptchaLoaded = true;
+        // Quitar los listeners para no cargarlo dos veces
+        formSection.removeEventListener('click', loadRecaptchaOnDemand);
+        formSection.removeEventListener('mouseover', loadRecaptchaOnDemand);
+    }
+}
+
+if (formSection) {
+    // Se carga si hacen click o pasan el mouse por encima del form
+    formSection.addEventListener('click', loadRecaptchaOnDemand);
+    formSection.addEventListener('mouseover', loadRecaptchaOnDemand, { once: true });
+}
+        document.addEventListener('gesturestart', function(e) { e.preventDefault(); });
+
+        // ─── INIT ───
+        document.addEventListener('DOMContentLoaded', () => { initCarousel('.carousel-container'); });
+    
+
+
+// ─── GTM DIFERIDO: carga tras primera interacción del usuario ───
+(function() {
+    var gtmLoaded = false;
+
+    function loadGTM() {
+        if (gtmLoaded) return;
+        gtmLoaded = true;
+
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),
+                dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-XXXXXXX');
+
+        // Limpiar listeners
+        ['click','scroll','keydown','touchstart','mousemove'].forEach(function(e) {
+            document.removeEventListener(e, loadGTM);
+        });
+    }
+
+    // Disparar en primera interacción real del usuario
+    ['click','scroll','keydown','touchstart','mousemove'].forEach(function(e) {
+        document.addEventListener(e, loadGTM, { once: true, passive: true });
+    });
+
+    // Fallback: cargar a los 5 segundos aunque no haya interacción
+    setTimeout(loadGTM, 5000);
+})();
+</script>
+
+
+
+<style>
+    #okapi-wasb-button {
+        display: none !important;
+    }
+
+    #gt_float_wrapper {
+        display: none !important;
+    }
+</style>
